@@ -28,9 +28,11 @@ set(sources
     src/EWL2_fill_log_linear.cpp
     src/EWL2_dynamic_prog.cpp
     src/Ckmeans.1d.dp.cpp
+    # src/main.cpp
 )
 
 add_library(${PROJECT_NAME} SHARED ${headers} ${sources})
+# add_executable(${PROJECT_NAME} ${headers} ${sources})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 OUTPUT_NAME "Ckmeans_1d_dp")
 
