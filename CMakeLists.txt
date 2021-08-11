@@ -22,6 +22,7 @@ set(sources
     src/fill_SMAWK.cpp
     src/fill_quadratic.cpp
     src/fill_log_linear.cpp
+    src/dynamic_prog.cpp
     src/EWL2_fill_SMAWK.cpp
     src/EWL2_fill_quadratic.cpp
     src/EWL2_fill_log_linear.cpp
